@@ -11,7 +11,7 @@ export default function Meme() {
   const [meme, setMeme] = useState({
     topText: "Shut up",
     bottomText: "And take my money",
-    randomImg: '../assets/images/memeimg.png',
+    randomImg: "../src/assets/memeimg.png",
   });
 
   useEffect(() => {

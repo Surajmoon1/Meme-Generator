@@ -11,7 +11,8 @@ export default function Meme() {
   const [meme, setMeme] = useState({
     topText: "Shut up",
     bottomText: "And take my money",
-    randomImg: "../src/assets/memeimg.png",
+    randomImg:
+      "https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A5c67a9e7-8a44-4bec-81bd-ffa07f9048d2?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
   });
 
   useEffect(() => {

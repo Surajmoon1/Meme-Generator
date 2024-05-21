@@ -19,6 +19,7 @@ body {
 
 .header img {
   height: 27px;
+  background: transparent;
 }
 
 .header h1 {

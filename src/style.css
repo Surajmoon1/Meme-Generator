@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+  background-color: #383737;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  height: 65px;
+  padding: 20px 29px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+
+.header img {
+  height: 27px;
+}
+
+.header h1 {
+  font-size: 21px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: -2px;
+}
+
+.meme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2%;
+  gap: 15px;
+}
+
+.meme-forms {
+  display: flex;
+  gap: 33px;
+  justify-content: center;
+  width: 100%;
+}
+
+.meme-form {
+  width: 16%;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.meme-form label {
+  font-size: 14px;
+  font-weight: 400;
+  /* color: #374151; */
+  color: white;
+}
+
+.meme-form input {
+  padding: 8px 11px;
+  border-radius: 5px;
+  border: 0.82px solid #d1d5db;
+}
+
+.meme-form input:focus {
+  outline: 1px solid #a626d3;
+}
+
+.meme-form input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.form-btn {
+  width: 34%;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  padding: 10px 0px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.formImg {
+  width: 34%;
+  height: 410px;
+  text-align: center;
+  position: relative;
+}
+
+.formImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+.textTop {
+  position: absolute;
+  top: 0;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.textBottom {
+  position: absolute;
+  bottom: 0;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
